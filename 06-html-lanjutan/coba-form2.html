@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contoh Input Attribute, Check Box & Radio</title>
+  </head>
+
+  <body>
+    <h1>Contoh Input Attribute, Check Box & Radio</h1>
+
+    <form>
+      <label for="name"
+        >Nama:
+        <input
+          type="text"
+          name="nama"
+          id="nama"
+          placeholder="Masukkan Nama"
+          autocomplete="off"
+          autofocus
+          required
+        />
+      </label>
+
+      <br />
+
+      <h3>Dari Mana Mengetahui Hal Ini?</h3>
+
+      <label for="source1">
+        <input type="checkbox" name="source1" id="source1" value="Instagram" />
+        Instagram
+      </label>
+
+      <br />
+
+      <label for="source2">
+        <input type="checkbox" name="source2" id="source2" value="Linkedin" />
+        Linkedin
+      </label>
+
+      <br />
+
+      <label for="source3">
+        <input type="checkbox" name="source3" id="source3" value="Facebook" />
+        Facebook
+      </label>
+
+      <br />
+
+      <h3>Jenis Kelamin</h3>
+
+      <label for="gender1">
+        <input
+          type="radio"
+          name="gender"
+          id="gender1"
+          value="Laki-Laki"
+          required
+        />
+        Laki Laki
+      </label>
+
+      <label for="gender 2">
+        <input type="radio" name="gender" id="gender2" value="Perempuan" />
+        Perempuan
+      </label>
+
+      <br />
+      <br />
+
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
