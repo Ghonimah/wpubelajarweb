@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coba CSS - Selector & Properties</title>
+    <style>
+      h1 {
+        font-size: 60px;
+        font-family: Arial;
+        color: blue;
+        text-align: center;
+      }
+
+      p {
+        font-size: 40px;
+        font-family: Arial;
+        color: green;
+        text-align: center;
+      }
+
+      .p2 {
+        font-size: 40px;
+        font-family: Arial;
+        color: red;
+        text-align: center;
+      }
+
+      #judul-gede {
+        text-transform: uppercase;
+      }
+
+      #garis-bawah {
+        text-decoration: underline;
+      }
+
+      .cetakmiring {
+        font-style: italic;
+      }
+
+      .cetaktebal {
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="judul-gede" class="p2 cetakmiring">Hello CSS World</h1>
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus minus
+      aut ab fugit deleniti eum error, dignissimos, recusandae, molestiae
+      dolorem non aperiam repellendus? Accusamus quaerat rerum aut eveniet earum
+      perferendis?
+    </p>
+    <p class="p2" id="garis-bawah" class="cetakmiring">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae, id. Quod
+      dignissimos nihil natus ducimus.
+    </p>
+
+    <p class="cetakmiring cetaktebal">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque maiores
+      fugit vel rerum distinctio id accusantium beatae adipisci cupiditate
+      omnis.
+    </p>
+  </body>
+</html>
