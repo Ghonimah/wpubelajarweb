@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Typography</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+      @font-face {
+        font-family: PlayfairDisplay;
+        src: url("fonts/PlayfairDisplay-Regular.ttf");
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+      }
+
+      @font-face {
+        font-family: GoogleSans;
+        src: url("fonts/GoogleSans-Regular.ttf");
+        font-weight: normal, bold;
+        font-style: normal;
+        font-display: swap;
+      }
+
+      h1 {
+        font: normal bold 60px/40px PlayfairDisplay;
+      }
+
+      p {
+        font-style: normal;
+        font-weight: normal, bold;
+        font-size: 20px;
+        line-height: 40px;
+        font-family:
+          Google Sans,
+          Arial,
+          sans-serif;
+        color: dimgray;
+      }
+
+      .bold-text {
+        font-weight: bold;
+        color: black;
+      }
+
+      .italic-text {
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>The Art of <span class="italic-text">Coding</span></h1>
+    <p>
+      Coding is not just about writing lines of code to make a program work. It
+      is an art that requires creativity, problem-solving skills, and attention
+      to detail. A good coder must understand the underlying principles of
+      programming, such as algorithms and data structures, and be able to apply
+      them effectively.
+    </p>
+    <p>
+      Typography plays a crucial role in coding, as it affects the readability
+      and usability of the code. Good typography in coding involves choosing
+      clear and legible fonts, using appropriate font sizes, and applying
+      consistent formatting throughout the codebase. Proper indentation and
+      spacing can also enhance readability. Additionally, using meaningful and
+      descriptive variable and function names can make the code easier to
+      understand.
+    </p>
+    <p>
+      <span class="bold-text">💡 Google Fonts:</span> Website ini menggunakan
+      <span class="bold-text">Playfair Display</span> untuk heading dan
+      <span class="bold-text">Google Sans</span> untuk body text. Kedua font ini
+      gratis dan bisa didapatkan dari website fonts.google.com.
+    </p>
+  </body>
+</html>
