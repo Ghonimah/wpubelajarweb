@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coba CSS - Font Styling</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Bytesized&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap");
+
+      @font-face {
+        font-family: LobsterTwo;
+        src: url("fonts/LobsterTwo-Regular.ttf") format("truetype");
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+      }
+      h1 {
+        color: crimson;
+        font-size: 80px;
+        text-align: center;
+        font-family: "Bytesized";
+        font-weight: 700;
+      }
+      p {
+        color: blue;
+        font-size: 40px;
+        text-align: center;
+        font-family: "Google Sans";
+        font-weight: 400;
+      }
+
+      .p3 {
+        font-family: LobsterTwo, Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        font-size: 40px;
+        color: blueviolet;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Hello CSS World</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo aliquam
+      praesentium odit ea nemo, ratione numquam amet ut enim suscipit.
+    </p>
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum voluptatum
+      eveniet sit rem! Repellendus deleniti eligendi dolores reprehenderit neque
+      id.
+    </p>
+
+    <p class="p3">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque
+      aliquam iusto commodi illum atque incidunt quae possimus nisi beatae sint.
+    </p>
+  </body>
+</html>
