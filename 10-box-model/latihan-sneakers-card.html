@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Card Shoe</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <article class="product-card">
+      <figure class="product-image">
+        <img
+          src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=600&auto=format&fit=crop"
+          alt="Shoe Product Image"
+        />
+      </figure>
+
+      <p class="product-category">Nike Sports Wear</p>
+      <h3 class="product-title">Nike Air Max Essential</h3>
+      <p class="product-description">
+        Kombinasi sempurna antara gaya retro dan modern. Dilengkapi dengan
+        teknologi Air-Sole untuk bantalan empuk yang nyaman di kaki.
+      </p>
+
+      <div class="product-pricing">
+        <span class="discount-price">IDR 1,899,000</span>
+        <del class="original-price">IDR 2,299,000</del>
+      </div>
+
+      <form>
+        <fieldset class="product-size-options">
+          <legend class="size-label-select">Pilih Ukuran (US):</legend>
+          <div class="size-options">
+            <input type="radio" name="size" id="size8" value="8" />
+            <label for="size8">8</label>
+
+            <input type="radio" name="size" id="size9" value="9" />
+            <label for="size9">9</label>
+
+            <input type="radio" name="size" id="size10" value="10" />
+            <label for="size10">10</label>
+
+            <input type="radio" name="size" id="size11" value="11" />
+            <label for="size11">11</label>
+
+            <input type="radio" name="size" id="size12" value="12" />
+            <label for="size12">12</label>
+          </div>
+        </fieldset>
+      </form>
+
+      <button class="cta-button" type="submit">Beli Sekarang</button>
+    </article>
+  </body>
+</html>
