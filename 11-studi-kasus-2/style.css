@@ -1,0 +1,321 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  background-color: #f5f5f5;
+  color: #121212;
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", serif;
+}
+
+header {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #1a1a1a;
+  color: white;
+}
+
+header h1 {
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+
+header .capsule-tag {
+  display: inline-block;
+  margin: 0px 8px;
+  padding: 6px 16px;
+  background-color: #06b6d4;
+  border-radius: 20px;
+}
+
+main {
+  width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+main .profile-card {
+  background-color: white;
+  padding: 20px 20px;
+  text-align: center;
+  border-radius: 12px;
+  border: solid 1px rgb(30 30 30 / 10%);
+  box-shadow: 0 10px 20px 0 rgb(30 30 30 / 6%);
+  margin-bottom: 24px;
+}
+
+.profile-card .artist-bio-title {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.profile-card .artist-photo {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin-bottom: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid 6px #06b6d4;
+}
+
+.profile-card .artist-bio {
+  margin-bottom: 8px;
+  padding: 0 30px;
+}
+
+.profile-card .stats-card {
+  display: inline-block;
+  margin: 20px;
+  border: 1.5px solid #eee;
+  padding: 20px 20px;
+  border-radius: 10px;
+}
+
+.stats-card .stats-title {
+  font-size: 24px;
+  color: #06b6d4;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+main .discography {
+  background-color: white;
+  padding: 20px 20px 28px 20px;
+  text-align: center;
+  border-radius: 12px;
+  border: solid 1px rgb(30 30 30 / 10%);
+  box-shadow: 0 10px 20px 0 rgb(30 30 30 / 6%);
+  margin-bottom: 24px;
+}
+
+.discography .artist-discography-title {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.discography .album {
+  display: inline-block;
+  margin: 20px 20px 20px 20px;
+  width: max-content;
+  height: 40px;
+  padding: 0 auto;
+  text-align: center;
+  background-color: #eee;
+  border-radius: 5px;
+}
+
+.discography .album > img {
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+}
+
+.discography .album .album-title {
+  font-size: 17px;
+  margin-bottom: 2px;
+}
+
+.discography .album .album-year {
+  font-size: 14px;
+  color: #aaa;
+  margin-bottom: 12px;
+}
+
+.discography .album .cta-button {
+  /* allows padding and resizing */
+  display: inline-block;
+
+  /* visual dimensions and spacing */
+  padding: 8px 24px;
+  margin-bottom: 20px;
+
+  /* text formatting */
+  text-decoration: none;
+  font-size: 15px;
+  text-align: center;
+
+  /* colors and theme */
+  background-color: #06b6d4;
+  color: white;
+
+  /* borders and effects */
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+main .social-links {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 12px;
+  border: solid 1px rgb(30 30 30 / 10%);
+  box-shadow: 0 10px 20px 0 rgb(30 30 30 / 6%);
+  margin-bottom: 20px;
+}
+
+.social-links .social-links-title {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.social-links .artist-social-medias > figure {
+  margin: 40px 40px 24px 40px;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+}
+
+.artist-social-medias .spotify {
+  background: transparent;
+  background-image: url(assets/spotify.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 80px;
+  height: 80px;
+  border: none;
+  background-color: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.artist-social-medias .applemus {
+  background: transparent;
+  background-image: url(assets/apple-music.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 80px;
+  height: 80px;
+  border: none;
+  background-color: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.artist-social-medias .insta {
+  background: transparent;
+  background-image: url(assets/instagram.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 80px;
+  height: 80px;
+  border: none;
+  background-color: none;
+  display: inline-block;
+}
+
+.artist-social-medias .tiktok {
+  background: transparent;
+  background-image: url(assets/tiktok.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 80px;
+  height: 80px;
+  border: none;
+  background-color: none;
+  display: inline-block;
+}
+
+.artist-social-medias .desc-socmed {
+  font-size: 16px;
+  text-align: center;
+  margin-top: 12px;
+}
+
+footer {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 60px;
+  align-items: center;
+  text-align: center;
+}
+
+footer .copyright-text {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+footer .business-mail {
+  font-size: 16px;
+  color: rgba(213 206 206 / 50%);
+}
